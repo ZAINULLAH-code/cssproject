@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.header{
+    width:100%;
+    min-height:50px;
+    background-color: black;
+}
+.logo{
+    width: 25%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    float: left;
+    padding-left: 2%;
+}
+.nav{
+    width:75%;
+    min-height: 50px;
+    line-height: 50px;
+    float:right;
+    display:flex;
+    justify-content: space-between;
+}
+.nav a{
+    display: inline-block;
+    width:16%;
+    min-height: 50px;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.clearfix{
+    content:'';
+    display: block;
+    clear: both;
+
+}
+
+/* header section ends here */
+.about{
+    width:100%;
+    min-height: 400px;
+    background-color: lightgray;
+
+}
+.inner{
+    width:80%;
+    min-height: 400px;
+    margin:auto;
+}
+.inner .image{
+    width:25%;
+    min-height: 400px;
+    float: left;
+}
+.inner .image img{
+ width:80%;
+ display: block;
+ margin:auto;
+ padding-top:20%;
+ 
+}
+.inner .image p{
+    font-size: 24px;
+    padding-top:20px;
+}
+.inner .image p{
+    text-align: center;
+}
+.inner .bio{
+    width:75%;
+    min-height: 400px;
+    
+   
+}
+.inner  .bio h1{
+padding-top:30px;
+}
+.inner  .bio p{
+    padding-top:20px;
+}
+.inner button{
+    margin-top:40px;
+    background-color: black;
+    color:white;
+    padding:4px 8px;
+}
+
+/* qualification section starts here */
+.qualification{
+    width:100%;
+    min-height: 400px;
+    background-color:gray;
+    text-align: center;
+    padding-top:20px;
+
+}
+.qualification h2{
+    text-align:center;
+    margin-bottom:50px;
+}
+.qualification table{
+    width:70%;
+    min-height: 200px;
+    margin:auto;
+}
+.qualification table tr:nth-child(1){
+    background-color: black;
+    color:white;
+}
+.qualification table tr:nth-child(even){
+    background-color: white;
+}
+/* .qualification section ends here */
+
+.skill{
+    width:100%;
+    min-height: 400px;
+    background-color: lightgray;
+}
+.skill h2{
+    text-align: center;
+    padding-top:50px;
+
+}
+.skill table{
+    width:70%;
+    min-height: 200px;
+    margin:auto;
+}
+.skill table tr:nth-child(1){
+    background-color:black;
+    color:white;
+    text-align: center;
+}
+/* skill section ends here */
+.projects{
+    width:100%;
+    min-height: 400px;
+    background-color:gray;
+}
+.projects h2{
+    padding-top:40px;
+    text-align: center;
+    margin-bottom:20px;
+}
+.projects .row{
+    width:70%;
+min-height: 300px;
+margin:auto;
+margin-bottom: 20px;
+
+}
+.projects .row .col{
+    width:50%;
+    min-height: 300px;
+    color:white;
+    float:left;
+}
+.projects .row .col img{
+    width:90%;
+    display: block;
+    margin:auto;
+}
+.projects .row .col p{
+    min-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:black;
+    color:white;
+    line-height: 50px;
+}
+
+/* project section ends here */
+.contact{
+    width: 100%;
+    min-height: 400px;
+    background-color: lightgray;
+    padding-top:50px;
+}
+.contact h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact form{
+    width:30%;
+    margin:auto;
+    padding:10px;
+}
+.contact form label{
+    color:black;
+}
+.contact form input{
+    width:100%;
+}
+.contact textarea{
+    width:100%;
+}
+/* contact section ends here */
+.footer{
+    width:100%;
+    min-height: 50px;
+    background-color:black;
+    text-align: center;
+    line-height: 50px;
+    color:white;
+}
